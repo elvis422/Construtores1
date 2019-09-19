@@ -3,7 +3,7 @@ public class TestaPorta {
     public static void main(String [] args)
     
     {
-        Porta p1 = new Porta(true,"preto",2,3,4);
+        Porta p1 = new Porta("preto",2,3,4);
         
         
         p1.pinta("Cinza");

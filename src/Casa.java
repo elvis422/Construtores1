@@ -39,11 +39,11 @@ public class Casa
     }
     
     public void setPorta2(Porta p2){
-        this.porta1= p2;
+        this.porta2= p2;
     }
     
     public void setPorta3(Porta p3){
-        this.porta1= p3;
+        this.porta3= p3;
     }
     
   
@@ -56,11 +56,11 @@ public class Casa
     {
         int cont = 0;
         if(this.porta1.estaAberta() == true)
-            cont = 1;
+            cont ++;
         if(this.porta2.estaAberta() == true)
-            cont += 1;
+            cont ++;
         if(this.porta3.estaAberta() == true)
-            cont += 1;
+            cont ++;
         
         return cont;
     }

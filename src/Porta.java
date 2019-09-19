@@ -6,9 +6,9 @@ public class Porta {
     private int dimensaoY;
     private int dimensaoZ;
     
-    public Porta(boolean a, String c, int dx, int dy, int dz){
+    public Porta(String c, int dx, int dy, int dz){
         
-        this.setAberta(a);
+        
         this.setCor(c);
         this.setDimensaox(dx);
         this.setDimensaox(dy);
