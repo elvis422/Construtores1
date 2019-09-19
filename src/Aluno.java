@@ -5,6 +5,12 @@ public class Aluno
     private String CPF;
     private Data dataDeNascimento;
     
+    public Aluno(String n, String c, Data d){
+        this.setNome(n);
+        this.setCpf(c);
+        this.setdataDeNascimento(d);
+    }
+    
     public String getNome(){
         return this.nome;
     }

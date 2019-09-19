@@ -6,6 +6,14 @@ public class Casa
     private Porta porta2;
     private Porta porta3;
     
+    public Casa(String c, Porta p1, Porta p2, Porta p3){
+        
+        this.setCor(c);
+        this.setPorta1(p1);
+        this.setPorta2(p2);
+        this.setPorta3(p3);
+    }
+    
     public String getCor(){
         return this.cor;
     }
