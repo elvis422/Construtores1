@@ -1,8 +1,8 @@
 public class TestaPessoa{
     
     public static void main(String [] args){
-        Pessoa p1= new Pessoa("Maike",20);
-        p1.setNome(" Maike Soares ");
+        Pessoa p1= new Pessoa("Elvis",20);
+        p1.setNome("Elvis Cadorso");
         
         p1.fazAniversario();
         p1.fazAniversario();
